@@ -1,0 +1,63 @@
+.my-profile{
+    max-width: 800px;
+    padding: 80px 24px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: skyblue;
+}
+.profile{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile-container{
+    max-width: 800px;
+    padding: 80px 24px;
+    margin: auto;
+}
+@media(max-width: 768px){
+    .profile-img-container{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+.profile-img{
+    color: rgb(84, 155, 131);
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+.profile > .name{
+    font-weight: bold;
+}
+.profile > .email{
+    font-style: italic;
+}
+.profile > .eno{
+    font-family: 'Courier New', Courier, monospace;
+}
+.profile > .course{
+    font-weight: bold;
+    font-style: italic;
+}
+.edit-profile{
+    font-size: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.form-module{
+    max-width: 95%;
+    padding: 0px 24px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+.form-module-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.panel-styling-custom{
+    border: 1px solid skyblue;
+}
