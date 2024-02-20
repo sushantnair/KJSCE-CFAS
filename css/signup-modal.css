@@ -1,0 +1,24 @@
+.valid{
+    color: green;
+}
+.valid:before{
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+.invalid{
+    color: red;
+}
+.invalid:before{
+    position: relative;
+    left: -35px;
+    content: "✖"
+}
+#student-password-error-message, #faculty-password-error-message, #student-email-error-message, #faculty-email-error-message{
+    display: none;
+    background: skyblue;
+    color: black;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
